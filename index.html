@@ -2,109 +2,690 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StakleOne Help Center</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official StakleOne Help Center, Privacy Policy, Terms and Conditions, Community Guidelines and Account Deletion.">
+  <title>StakleOne | Help Center & Legal</title>
   <style>
+    :root {
+      --blue: #1769e0;
+      --dark: #14233b;
+      --muted: #5d6b80;
+      --bg: #f4f7fc;
+      --border: #e4eaf2;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 24px; }
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f7fc;
-      color: #172033;
-      line-height: 1.6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Arial, sans-serif;
+      color: var(--dark);
+      background: var(--bg);
+      line-height: 1.75;
+      font-size: 16px;
     }
     header {
-      background: #1769e0;
+      padding: 54px 20px 44px;
       color: white;
-      padding: 35px 20px;
       text-align: center;
+      background: linear-gradient(135deg, #124cb2, #1769e0, #3d8bff);
     }
-    header h1 { margin: 0; }
-    main {
-      max-width: 850px;
-      margin: 25px auto;
-      padding: 0 16px;
+    header .brand {
+      font-weight: 850;
+      font-size: 32px;
+      letter-spacing: 3px;
     }
-    section {
+    header p { margin: 8px 0 0; color: #eaf2ff; }
+    .container { max-width: 940px; margin: 28px auto; padding: 0 16px; }
+    .card {
       background: white;
-      padding: 22px;
-      margin-bottom: 16px;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px #0000000a;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 22px rgba(20, 35, 59, .035);
     }
-    a { color: #1769e0; }
-    .link {
+    h1, h2, h3 { line-height: 1.35; }
+    h1 { font-size: 30px; }
+    h2 { font-size: 25px; margin: 0 0 12px; }
+    h3 { font-size: 18px; margin: 24px 0 8px; }
+    p { margin: 10px 0 14px; }
+    .muted { color: var(--muted); }
+    .updated { font-size: 14px; color: var(--muted); }
+    a { color: var(--blue); overflow-wrap: anywhere; }
+    .nav a {
       display: block;
-      padding: 10px 0;
-      border-bottom: 1px solid #edf0f5;
+      text-decoration: none;
+      padding: 11px 0;
+      border-bottom: 1px solid var(--border);
+      font-weight: 600;
+    }
+    .nav a:last-child { border-bottom: 0; }
+    .nav a:hover { text-decoration: underline; }
+    ul, ol { padding-left: 25px; }
+    li { margin-bottom: 7px; }
+    .notice {
+      background: #eef5ff;
+      border-left: 4px solid var(--blue);
+      padding: 14px 17px;
+      border-radius: 8px;
+    }
+    .button {
+      display: inline-block;
+      background: var(--blue);
+      color: white;
+      padding: 11px 17px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: 700;
+      margin: 6px 5px 6px 0;
     }
     footer {
       text-align: center;
-      padding: 24px;
-      color: #667085;
+      padding: 30px 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      header { padding: 38px 18px; }
+      header .brand { font-size: 27px; }
+      .card { padding: 21px 18px; }
+      h1 { font-size: 27px; }
+      h2 { font-size: 23px; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>STAKLEONE</h1>
-    <p>Help Center</p>
-    <p>Connect with people. Share skills. Grow together.</p>
-  </header>
-  <main>
-    <section>
-      <h2>How can we help?</h2>
-      <p>Find help with your StakleOne account, professional connections, skill swaps, messages and posts.</p>
-      <a class="link" href="#account">Account &amp; Login</a>
-      <a class="link" href="#circle">Circle &amp; Swaps</a>
-      <a class="link" href="#posts">Messages &amp; Posts</a>
-      <a class="link" href="#contact">Contact Support</a>
-      <a class="link" href="#report">Report a Problem</a>
-      <a class="link" href="#delete">Request Account Deletion</a>
-      <a class="link" href="#privacy">Privacy Policy</a>
-      <a class="link" href="#terms">Terms of Use</a>
-    </section>
-    <section id="account">
-      <h2>Account &amp; Login</h2>
-      <p>Sign in using an available login option in the app. Keep access to your sign-in account secure. If you cannot access your account, contact support.</p>
-    </section>
-    <section id="circle">
-      <h2>Circle &amp; Swaps</h2>
-      <p>Use Circle to manage professional connections. Skill swaps are intended for direct skill exchange between participants. Agree on the skills, timing and expectations before starting a swap.</p>
-    </section>
-    <section id="posts">
-      <h2>Messages &amp; Posts</h2>
-      <p>Share professional updates and communicate respectfully. Do not post unlawful, deceptive, abusive or harmful content. Report content or users that concern you.</p>
-    </section>
-    <section id="contact">
-      <h2>Contact Support</h2>
-      <p>Email: <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a></p>
-      <p>Include a brief description of your issue. Do not email your password or verification codes.</p>
-    </section>
-    <section id="report">
-      <h2>Report a Problem</h2>
-      <p>To report a technical issue, abusive behaviour or inappropriate content, email <a href="mailto:staklemeet@gmail.com?subject=StakleOne%20Problem%20Report">staklemeet@gmail.com</a>. Include relevant details and avoid sharing unnecessary personal information.</p>
-    </section>
-    <section id="delete">
-      <h2>Request Account Deletion</h2>
-      <p>You can request deletion of your StakleOne account and associated data by emailing:</p>
-      <p><a href="mailto:staklemeet@gmail.com?subject=StakleOne%20Account%20Deletion%20Request">Request account deletion by email</a></p>
-      <p>Send the request from your registered email address where possible. We may ask for reasonable verification before processing it. Account and associated data deletion requests will be reviewed and processed, subject to applicable legal requirements and any data that must be retained by law.</p>
-    </section>
-    <section id="privacy">
-      <h2>Privacy Policy</h2>
-      <p>StakleOne uses account and profile information to provide professional networking, posts, messaging and skill exchange features. Information you share may be visible to other users according to the app's features and settings.</p>
-      <p>For privacy questions or requests about your data, contact <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>.</p>
-      <p>This is a starter summary, not the final complete privacy policy. The full policy must accurately describe the app's actual data collection, sharing, retention and deletion practices before publication.</p>
-    </section>
-    <section id="terms">
-      <h2>Terms of Use</h2>
-      <p>Use StakleOne lawfully and respectfully. You are responsible for the content you post and for agreeing on expectations with skill-swap participants. Do not harass users, misuse accounts or upload unlawful content.</p>
-      <p>These are starter terms and must be reviewed and completed before they are treated as the app's final legal terms.</p>
-    </section>
-  </main>
+<header>
+  <div class="brand">STAKLEONE</div>
+  <p>Connect professionally. Share skills. Grow together.</p>
+  <p>Official Help Center, Policies & Community Standards</p>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h1>Welcome to the StakleOne Help Center</h1>
+    <p>
+      StakleOne is a professional networking platform designed to help people
+      discover skills, build professional connections, share ideas, communicate
+      and explore direct skill exchanges.
+    </p>
+    <p>
+      This website explains how to get help, use the platform responsibly,
+      understand our policies and request account deletion.
+    </p>
+    <p class="notice">
+      Need assistance? Contact
+      <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>.
+      Never send your password or sign-in verification codes by email.
+    </p>
+  </section>
+
+  <section class="card nav">
+    <h2>Help & Legal Documents</h2>
+    <a href="#help">Help and frequently asked questions</a>
+    <a href="#community">Community Guidelines and Safety</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#terms">Terms & Conditions</a>
+    <a href="#deletion">Account and Data Deletion</a>
+    <a href="#contact">Contact Support and Report a Problem</a>
+  </section>
+
+  <section class="card" id="help">
+    <h2>Help & Frequently Asked Questions</h2>
+
+    <h3>Account and login</h3>
+    <p>
+      Use an available sign-in method provided in the StakleOne app.
+      Keep access to your email or linked sign-in account secure.
+      If you experience login problems, contact support from your registered
+      email address where possible.
+    </p>
+
+    <h3>Your profile</h3>
+    <p>
+      Your profile may contain your name, username, professional information,
+      biography, city, skills, interests and profile image. Only include
+      information you are comfortable sharing according to the app's visibility
+      settings.
+    </p>
+
+    <h3>Circle and connections</h3>
+    <p>
+      Use Circle and connection features to build professional relationships.
+      Send requests respectfully and accept requests only when you are
+      comfortable connecting with the person.
+    </p>
+
+    <h3>Skill swaps</h3>
+    <p>
+      StakleOne supports direct skill exchange between participants.
+      Discuss the skills, scope, schedule and expectations before agreeing
+      to a swap. Both participants should agree voluntarily.
+      Do not assume a swap is guaranteed or that StakleOne guarantees another
+      participant's qualifications, availability or performance.
+    </p>
+
+    <h3>Posts and messages</h3>
+    <p>
+      Share professional updates and communicate respectfully. Do not post
+      confidential information, passwords, verification codes or another
+      person's personal information without appropriate permission.
+      Use available reporting and blocking features if you encounter
+      abusive or inappropriate behaviour.
+    </p>
+
+    <h3>Account problems</h3>
+    <p>
+      For technical problems, account access concerns, privacy questions or
+      reports, contact
+      <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>.
+      Include a brief explanation and relevant details, but avoid unnecessary
+      sensitive information.
+    </p>
+  </section>
+
+  <section class="card" id="community">
+    <h2>Community Guidelines and Safety</h2>
+    <p>
+      StakleOne is intended to support professional networking and constructive
+      skill sharing. Every user is expected to treat others with respect.
+    </p>
+
+    <h3>Expected behaviour</h3>
+    <ul>
+      <li>Communicate respectfully and professionally.</li>
+      <li>Represent your identity, experience and skills honestly.</li>
+      <li>Respect personal boundaries and other users' privacy.</li>
+      <li>Agree clearly on the scope and expectations of skill swaps.</li>
+      <li>Share only content you have the right to publish.</li>
+      <li>Report content or conduct that appears abusive, fraudulent or unsafe.</li>
+    </ul>
+
+    <h3>Prohibited behaviour</h3>
+    <ul>
+      <li>Harassment, threats, bullying, stalking or intimidation.</li>
+      <li>Fraud, impersonation, scams or deliberate misrepresentation.</li>
+      <li>Unlawful, sexually exploitative or otherwise prohibited content.</li>
+      <li>Hate, discriminatory abuse or encouragement of violence.</li>
+      <li>Sharing private information without proper authorisation.</li>
+      <li>Spam, malicious links, unauthorised access or platform manipulation.</li>
+      <li>Misusing another user's account, content or identity.</li>
+    </ul>
+
+    <h3>Reporting, blocking and enforcement</h3>
+    <p>
+      Use in-app reporting or blocking controls where available. You may also
+      report a concern to
+      <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>.
+      Include the relevant username, post or conversation details when safe
+      and appropriate.
+    </p>
+    <p>
+      Reports may be reviewed and may result in content removal, restrictions,
+      suspension or account termination, depending on the circumstances and
+      applicable law. Do not use reporting tools to harass other users or
+      submit knowingly false reports.
+    </p>
+    <p>
+      These guidelines describe the expected standard. The app's reporting,
+      blocking and moderation mechanisms must be implemented and operational
+      wherever required by applicable platform policies.
+    </p>
+  </section>
+
+  <section class="card" id="privacy">
+    <h2>Privacy Policy</h2>
+    <p class="updated">Effective date: 17 October 2026 · Version 1.0</p>
+
+    <p>
+      This Privacy Policy explains how StakleOne handles information when
+      you use the StakleOne mobile application and related support services.
+      Please read it carefully.
+    </p>
+    <p>
+      In this document, “StakleOne,” “we,” “us” and “our” refer to the
+      operator of the StakleOne service. The contact email for privacy
+      questions and requests is
+      <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>.
+    </p>
+
+    <h3>1. Information we may collect</h3>
+    <p><strong>Account and authentication information.</strong>
+      When you create or access an account, the service may process your
+      email address, authentication identifiers, sign-in provider information
+      and account status. If you use Google Sign-In, Google processes
+      information under its own applicable policies.
+    </p>
+    <p><strong>Profile information.</strong>
+      Information you choose to provide may include your name, username,
+      profile photograph, biography, profession, city, skills, interests
+      and other profile details.
+    </p>
+    <p><strong>User-generated content.</strong>
+      We may process posts, replies or comments, profile content, messages,
+      connection requests, swap requests and information needed to operate
+      these features.
+    </p>
+    <p><strong>Support and safety information.</strong>
+      If you contact support, report a user or request deletion, we may
+      process the information you provide and the information reasonably
+      necessary to investigate or respond.
+    </p>
+    <p><strong>Technical information.</strong>
+      The app and its service providers may process technical information
+      necessary for authentication, security, reliability and operation.
+      The specific diagnostic, device, analytics and log information collected
+      depends on the services enabled in the released app.
+    </p>
+
+    <h3>2. How information is used</h3>
+    <p>Information may be used to:</p>
+    <ul>
+      <li>Create, authenticate and maintain accounts.</li>
+      <li>Display profiles and professional information.</li>
+      <li>Provide posts, replies, messaging and networking features.</li>
+      <li>Support Circle connections and direct skill swaps.</li>
+      <li>Respond to support requests and account deletion requests.</li>
+      <li>Protect the service, investigate abuse and enforce our terms.</li>
+      <li>Meet legal obligations and address security issues.</li>
+    </ul>
+
+    <h3>3. Public and shared information</h3>
+    <p>
+      Information placed in profiles, posts or other public-facing areas may
+      be visible to other users, depending on the app's features and your
+      selected visibility settings. Information sent in a message is shared
+      with its intended recipient, but recipients may copy, save or share
+      information you send.
+    </p>
+    <p>
+      Do not post passwords, financial credentials, identity documents or
+      other sensitive information in public profiles, posts or messages.
+      Deleting content from the app may not remove copies previously saved
+      by other people.
+    </p>
+
+    <h3>4. Service providers and sharing</h3>
+    <p>
+      StakleOne uses Firebase services for functions such as authentication
+      and data storage. Depending on the app's configuration, Google and
+      other relevant service providers may process information to provide,
+      secure and maintain those services.
+    </p>
+    <p>
+      We may disclose information when necessary to respond to lawful requests,
+      comply with legal obligations, protect users, investigate suspected
+      abuse or protect the rights and security of the service.
+    </p>
+    <p>
+      We do not promise that no third party will ever process information.
+      The final published policy must identify all services actually enabled
+      in the app and accurately describe their role. We must also disclose
+      any advertising, analytics, crash-reporting or other SDKs if used.
+    </p>
+
+    <h3>5. Data security</h3>
+    <p>
+      We rely on appropriate technical and organisational safeguards and
+      the security controls available in the services we use. No internet
+      transmission or storage system can be guaranteed to be completely
+      secure. Users should protect their sign-in accounts and notify us
+      promptly of suspected unauthorised access.
+    </p>
+
+    <h3>6. Data retention</h3>
+    <p>
+      Information should be retained only for as long as necessary for the
+      purposes described in this policy, legitimate operational needs and
+      applicable legal obligations. Actual retention periods depend on the
+      type of information and the app's implementation.
+    </p>
+    <p>
+      Backups, records retained for legal reasons and information already
+      copied by other users may not disappear immediately when content or
+      an account is deleted.
+    </p>
+
+    <h3>7. Your privacy choices and rights</h3>
+    <p>
+      Depending on applicable law, you may have rights to access, correct,
+      erase or otherwise exercise control over your personal information.
+      You can contact us to ask questions or submit a privacy request.
+      We may need to verify your identity before acting on a request.
+    </p>
+    <p>
+      Contact:
+      <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>
+    </p>
+
+    <h3>8. Account and data deletion</h3>
+    <p>
+      You may request deletion of your StakleOne account and associated
+      personal data through the in-app account deletion option, where
+      available, or through the external request route described in the
+      <a href="#deletion">Account and Data Deletion</a> section below.
+    </p>
+    <p>
+      We will verify requests as reasonably necessary and process them under
+      applicable law. Any data that must be retained for a lawful reason
+      should be limited to what is required and handled appropriately.
+      A deletion request is not complete merely because an email has been
+      sent; it must be reviewed and fulfilled through the actual systems
+      that store the account and associated data.
+    </p>
+
+    <h3>9. Children's privacy</h3>
+    <p>
+      StakleOne is designed around professional networking and skill sharing.
+      The service operator must set and enforce an appropriate minimum-age
+      policy and configure the app's audience declarations consistently
+      with its actual intended audience and applicable law. Do not provide
+      another person's personal information without proper authority.
+    </p>
+
+    <h3>10. International processing</h3>
+    <p>
+      Service providers may process or store information in locations outside
+      your home country, subject to their infrastructure and applicable
+      legal requirements. Relevant safeguards and disclosures should reflect
+      the actual services and configurations used by StakleOne.
+    </p>
+
+    <h3>11. Changes to this policy</h3>
+    <p>
+      We may update this policy as the app changes or legal requirements
+      evolve. The updated version will be published on this page with a
+      revised effective date. Where required, we will provide additional
+      notice or obtain consent.
+    </p>
+
+    <h3>12. Contact about privacy</h3>
+    <p>
+      For privacy questions, data requests or concerns, email
+      <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>
+      with the subject “StakleOne Privacy Request.”
+    </p>
+  </section>
+
+  <section class="card" id="terms">
+    <h2>Terms & Conditions</h2>
+    <p class="updated">Effective date: 17 October 2026 · Version 1.0</p>
+
+    <p>
+      These Terms & Conditions govern your use of the StakleOne application
+      and related services. By creating an account or using the service,
+      you agree to these terms. If you do not agree, do not use the service.
+      The onboarding flow should provide these terms for review and require
+      affirmative acceptance before a user can finish onboarding or upload
+      user-generated content.
+    </p>
+
+    <h3>1. The StakleOne service</h3>
+    <p>
+      StakleOne provides professional networking features that may include
+      profiles, posts, replies, messaging, Circle connections, skill
+      information and direct skill-swap requests. Features may change as
+      the platform develops.
+    </p>
+
+    <h3>2. Accounts and accurate information</h3>
+    <ul>
+      <li>Provide accurate information and update it when necessary.</li>
+      <li>Use an account you are authorised to access.</li>
+      <li>Keep your sign-in credentials secure.</li>
+      <li>Do not impersonate another person or misrepresent qualifications.</li>
+      <li>Do not share account access or use another user's account without permission.</li>
+      <li>Notify support if you believe your account has been compromised.</li>
+    </ul>
+
+    <h3>3. Professional conduct</h3>
+    <p>
+      You must comply with applicable law and our
+      <a href="#community">Community Guidelines</a>. Harassment, threats,
+      discrimination, fraud, spam, impersonation, unauthorised access and
+      unlawful content are prohibited.
+    </p>
+
+    <h3>4. Posts and user-generated content</h3>
+    <p>
+      You are responsible for the content you submit. You must have the
+      necessary rights and permissions to publish it. Do not upload content
+      that infringes intellectual property, violates privacy, is unlawful
+      or violates these terms.
+    </p>
+    <p>
+      You retain any rights you hold in your content. To operate the service,
+      you grant StakleOne a limited, non-exclusive permission to host, store,
+      reproduce and display your submitted content as necessary to provide,
+      secure and maintain the features you use, subject to your settings
+      and applicable law. This permission ends when the content is removed,
+      except for limited copies that must be retained for legitimate or
+      legal reasons.
+    </p>
+    <p>
+      Do not submit confidential information or personal information you
+      are not authorised to share. Content may be removed or restricted
+      when required by law or these terms.
+    </p>
+
+    <h3>5. Connections and messages</h3>
+    <p>
+      You are responsible for deciding whom to connect with and what
+      information to share. Do not use messages to harass, threaten,
+      deceive, spam or solicit unlawful activity. Other users may save
+      information you send. StakleOne cannot guarantee that every profile
+      or statement made by another user is accurate.
+    </p>
+
+    <h3>6. Skill swaps</h3>
+    <p>
+      Skill swaps are intended as direct exchanges agreed between
+      participants. Participants should agree on the skills, expected
+      deliverables, timing, communication and boundaries before starting.
+    </p>
+    <ul>
+      <li>Participation is voluntary.</li>
+      <li>Do not falsely claim expertise or promise results you cannot deliver.</li>
+      <li>Respect agreed schedules, boundaries and confidential information.</li>
+      <li>Do not use a swap to request unlawful, dangerous or abusive activity.</li>
+      <li>Resolve disagreements respectfully and report serious concerns.</li>
+    </ul>
+    <p>
+      Unless explicitly agreed between participants and permitted by law,
+      StakleOne does not guarantee that a swap will be completed or that
+      another participant's work will meet your expectations. StakleOne
+      does not currently promise monetary payments, token value or a
+      guaranteed exchange outcome.
+    </p>
+
+    <h3>7. Prohibited uses</h3>
+    <p>You must not:</p>
+    <ul>
+      <li>Break applicable laws or violate another person's rights.</li>
+      <li>Attempt to access accounts, systems or data without authorisation.</li>
+      <li>Distribute malware, phishing links or deceptive material.</li>
+      <li>Manipulate platform features, abuse reporting or create spam accounts.</li>
+      <li>Scrape or harvest user information unlawfully.</li>
+      <li>Interfere with the security, availability or operation of the service.</li>
+      <li>Use the service for fraud, harassment or other harmful conduct.</li>
+    </ul>
+
+    <h3>8. Reporting and enforcement</h3>
+    <p>
+      You can report concerns through available in-app controls or by emailing
+      <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>.
+      We may investigate reports and take action proportionate to the
+      circumstances, including removing content, restricting features,
+      suspending accounts or terminating access when appropriate or required.
+    </p>
+
+    <h3>9. Intellectual property</h3>
+    <p>
+      StakleOne and its branding, software, design and service materials
+      are protected by applicable intellectual-property laws. You may not
+      copy, modify, distribute or exploit protected materials without
+      permission, except as permitted by law.
+    </p>
+
+    <h3>10. Third-party services</h3>
+    <p>
+      Some features depend on third-party services, including authentication
+      and hosting providers. Those services may have separate terms and
+      privacy policies. StakleOne is not responsible for independent
+      third-party services beyond obligations imposed by applicable law.
+    </p>
+
+    <h3>11. Service availability and disclaimers</h3>
+    <p>
+      We aim to provide a useful and reliable service, but uninterrupted
+      availability cannot be guaranteed. Features may be updated, suspended
+      or discontinued for maintenance, security, legal or operational reasons.
+    </p>
+    <p>
+      To the extent permitted by applicable law, the service is provided
+      without guarantees that every user, profile, post, message, skill
+      claim or swap will be accurate, safe, available or suitable for your
+      purposes. Nothing in these terms excludes rights or protections that
+      cannot legally be excluded.
+    </p>
+
+    <h3>12. Limitation of liability</h3>
+    <p>
+      To the extent permitted by applicable law, StakleOne is not liable
+      for indirect or consequential losses arising from user-to-user
+      interactions or temporary service interruptions. These terms do not
+      exclude liability or consumer rights where exclusion is prohibited
+      by law. Any limitation must be interpreted in accordance with the
+      law applicable to the user and service.
+    </p>
+
+    <h3>13. Suspension and termination</h3>
+    <p>
+      You may stop using StakleOne and request account deletion at any time.
+      We may restrict or terminate access for violations of these terms,
+      security risks, legal obligations or misuse of the service, subject
+      to applicable law.
+    </p>
+
+    <h3>14. Changes to these terms</h3>
+    <p>
+      We may update these terms as the platform develops. Material changes
+      will be reflected in the published version and, where required,
+      presented for renewed acceptance before continued use of affected
+      features.
+    </p>
+
+    <h3>15. Applicable law and disputes</h3>
+    <p>
+      These terms are subject to applicable laws and mandatory consumer
+      protections. Any governing-law or dispute-resolution provisions must
+      be completed and reviewed by the service operator for the relevant
+      jurisdiction before final publication.
+    </p>
+
+    <h3>16. Contact</h3>
+    <p>
+      Questions about these terms can be sent to
+      <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>
+      with the subject “StakleOne Terms.”
+    </p>
+  </section>
+
+  <section class="card" id="deletion">
+    <h2>Account and Data Deletion</h2>
+    <p>
+      You may request deletion of your StakleOne account and associated
+      personal data. Account deletion is different from simply uninstalling
+      the application.
+    </p>
+
+    <h3>How to request deletion</h3>
+    <ol>
+      <li>
+        If an account-deletion option is available in the app, follow its
+        instructions to submit your request.
+      </li>
+      <li>
+        You can also use the email link below to request deletion externally.
+      </li>
+      <li>
+        Send the request from the email address associated with your account
+        where possible, and provide your username if known.
+      </li>
+      <li>
+        We may ask for reasonable verification to protect your account
+        against unauthorised deletion requests.
+      </li>
+    </ol>
+
+    <a class="button"
+       href="mailto:staklemeet@gmail.com?subject=StakleOne%20Account%20Deletion%20Request&body=I%20request%20deletion%20of%20my%20StakleOne%20account%20and%20associated%20personal%20data.%0AUsername%3A%20%0ARegistered%20email%3A%20">
+      Request Account Deletion
+    </a>
+
+    <h3>What happens next?</h3>
+    <p>
+      After verifying a request, the service operator must locate the
+      relevant account and delete the account and associated personal data
+      in accordance with applicable law and the actual retention policy.
+      This may include authentication records, profile information,
+      user-created content and related records, subject to lawful retention
+      exceptions.
+    </p>
+    <p>
+      Some records may need to be retained for legal, security or fraud
+      prevention purposes. Where retention is required, it should be
+      limited to the necessary information and period. Information already
+      copied by other users or included in legally retained records may
+      not be removable from those copies.
+    </p>
+    <p class="notice">
+      Sending an email submits a request; it does not automatically delete
+      the account. The operator must actually verify and fulfil the request.
+      The deletion workflow must be tested before this page is relied on
+      for Google Play compliance.
+    </p>
+
+    <h3>Questions about deletion</h3>
+    <p>
+      Email <a href="mailto:staklemeet@gmail.com">staklemeet@gmail.com</a>
+      with the subject “Account Deletion Request.”
+    </p>
+  </section>
+
+  <section class="card" id="contact">
+    <h2>Contact Support and Report a Problem</h2>
+    <p>
+      For help with sign-in, profiles, posts, messages, connections, skill
+      swaps, privacy, safety or technical issues, contact our support email.
+    </p>
+    <a class="button" href="mailto:staklemeet@gmail.com">
+      Contact Support
+    </a>
+    <a class="button"
+       href="mailto:staklemeet@gmail.com?subject=StakleOne%20Problem%20Report">
+      Report a Problem
+    </a>
+    <p>
+      Describe the issue and include relevant details such as your username
+      or the affected feature. Do not include passwords, verification codes
+      or unnecessary sensitive information. For an urgent safety concern,
+      contact the appropriate local emergency service.
+    </p>
+  </section>
+
   <footer>
-    <p>StakleOne Help Center</p>
+    <strong>STAKLEONE</strong>
+    <p>Professional connections. Skills. Growth.</p>
+    <p>
+      <a href="#privacy">Privacy Policy</a> ·
+      <a href="#terms">Terms & Conditions</a> ·
+      <a href="#deletion">Account Deletion</a>
+    </p>
     <p>Support: staklemeet@gmail.com</p>
+    <p>©️ 2026 StakleOne. All rights reserved.</p>
   </footer>
+</main>
 </body>
 </html>
